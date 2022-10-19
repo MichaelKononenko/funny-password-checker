@@ -13,6 +13,7 @@ body {
 }
 
 form {
+  position: relative;
   margin: 0 auto 10px;
   padding: 10px;
   border: 3px dashed gray;
@@ -31,10 +32,16 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+#accept {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+}
 
 .about {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 .is-hidden {
@@ -65,4 +72,9 @@ button {
 }
 p {
   align-self: center;
+}
+
+.redirect-info {
+  display: block;
+  text-align: center;
 }
